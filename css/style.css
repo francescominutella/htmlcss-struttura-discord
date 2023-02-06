@@ -13,6 +13,9 @@
 .card_white{
     background-color: white;
 }
+.card_gray{
+    background-color: lightgrey;
+}
 /* --------DEBUG--------------------- */    
 .dbg #app_header{
     background-color: rgba(81, 0, 255, 0.464);
@@ -22,7 +25,7 @@
 
 .dbg #app_main{
     background-color: blueviolet;
-    height: 800px;}
+    height: 2000px;}
 
 .dbg .col60{
     background-color: blue;
@@ -45,11 +48,11 @@ nav {
 
 /*  MAIN */
 
-.row{
+.white{
     border: 1px solid red;
     display: flex;
-   
 }
+
 .col60{
     width: 60%;
     height: 400px;
@@ -57,4 +60,10 @@ nav {
 .col40{
     width: 40%;
     height: 400px;
+}
+
+.gray{
+    border: 1px solid red;
+    display: flex;
+    flex-direction: row-reverse;
 }
