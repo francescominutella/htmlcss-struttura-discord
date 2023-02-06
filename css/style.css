@@ -31,14 +31,16 @@
 .nav_header{
     display: flex;
     justify-content: space-between;
+    padding: 1rem;
+    align-items: baseline;
 }
 
 /* --------DEBUG--------------------- */    
-/* .dbg #app_header{
+.dbg #app_header{
     background-color: rgba(81, 0, 255, 0.464);
     width: 100%;
     height: 500px;
-} */
+}
 
 .dbg #app_footer{
     background-color: black;
@@ -58,11 +60,19 @@
 }
 
 .col80{
+    margin: auto;
     width: 80%;
     height: 300px;
-    background-color: blue;
+    background-color:fuchsia;
 }
 
+.logo_header{
+    margin-right: 300px;
+}
+
+.login_header{
+    margin-left: 300px;
+}
 /*  MAIN */
 
 .white{
