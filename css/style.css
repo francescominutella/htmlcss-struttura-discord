@@ -6,6 +6,7 @@
 }
 
 .container{
+    max-width: 1170px;
     width: 70%;
     margin: auto;
     padding: 3rem 0;
@@ -55,11 +56,11 @@ nav {
 
 .col60{
     width: 60%;
-    height: 400px;
+    height: 500px;
 }
 .col40{
     width: 40%;
-    height: 400px;
+    height: 500px;
 }
 
 .gray{
