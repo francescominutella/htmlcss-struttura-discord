@@ -1,0 +1,13 @@
+/* --------UTILITY------------------- */
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/* --------DEBUG--------------------- */    
+.dbg #app_header{
+    background-color: blue;
+    width: 100%;
+    height: 500px;
+}
