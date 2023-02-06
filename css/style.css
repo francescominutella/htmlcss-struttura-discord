@@ -17,6 +17,10 @@
 .card_gray{
     background-color: lightgrey;
 }
+.card_black{
+    background-color: black;
+}
+
 /* --------DEBUG--------------------- */    
 .dbg #app_header{
     background-color: rgba(81, 0, 255, 0.464);
@@ -24,21 +28,13 @@
     height: 500px;
 }
 
-/* .dbg #app_main{
-    background-color: blueviolet;
-    height: 2000px;} */
-
-.dbg .col60{
-    background-color: blue;
-}
-.dbg .col40{
-    background-color: pink;
-}
-.dbg .col100{
-    background-color: green;
+.dbg #app_footer{
+    background-color: black;
+    width: 100%;
+    height: 500px;
 }
 
-/* ---regionend--------------------- */
+/* ---regionend------------------- */
 
 /* HEADER */
 
@@ -59,10 +55,12 @@ nav {
 .col60{
     width: 60%;
     height: 500px;
+    background-color: blue;
 }
 .col40{
     width: 40%;
     height: 500px;
+    background-color: pink;
 }
 
 .gray{
@@ -73,4 +71,21 @@ nav {
 .col100{
     width: 100%;
     height: 1000px;
+    background-color: green;
+}
+
+/* FOOTER */
+
+.col40{
+    width: 40%;
+    height: 500px;
+    background-color: pink;
+}
+.col20{
+    width: 20%;
+    height: 500px;
+    background-color:teal
+}
+.black{
+    display: flex;
 }
