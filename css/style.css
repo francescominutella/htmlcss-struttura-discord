@@ -20,31 +20,48 @@
 .card_black{
     background-color: black;
 }
+.card_blue{
+    background-color:blue;
+}
+
+.nav_footer{
+    display: flex;
+    justify-content: space-between;
+}
+.nav_header{
+    display: flex;
+    justify-content: space-between;
+}
 
 /* --------DEBUG--------------------- */    
-.dbg #app_header{
+/* .dbg #app_header{
     background-color: rgba(81, 0, 255, 0.464);
     width: 100%;
     height: 500px;
-}
+} */
 
 .dbg #app_footer{
     background-color: black;
     width: 100%;
-    height: 500px;
+    height: 300px;
 }
-
+.dbg .nav_header{
+        background-color: orange;
+        width: 100%;
+        height: 20px;
+}
 /* ---regionend------------------- */
 
 /* HEADER */
-
-/* nav {
-    height: 2rem;
-    background-color: rgb(42, 88, 241);
+.blue{
     display: flex;
-    justify-content: center;
-    padding: 2rem;
-} */
+}
+
+.col80{
+    width: 80%;
+    height: 300px;
+    background-color: blue;
+}
 
 /*  MAIN */
 
@@ -100,7 +117,3 @@
     background-color: brown;
 }
 
-nav{
-    display: flex;
-    justify-content: space-between;
-}
