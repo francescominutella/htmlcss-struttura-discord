@@ -12,8 +12,10 @@
     padding: 3rem 0;
 }
 
-.d-flex{
+.menu .d-flex{
     display: flex;
+    justify-content: space-between;
+    flex-grow: 4;
 }
 
 .card_white {
