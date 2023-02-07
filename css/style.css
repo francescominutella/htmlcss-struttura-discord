@@ -67,13 +67,17 @@
 
 /* HEADER */
 
-
 #app_header{
     background-image: url(../img/jumbo.png);
     background-size: cover;
-    height: 50vh;
+    height: 50%;
     position: relative;
 }
+
+.login_header {
+    margin-left: 300px;
+}
+
 
 .col80 {
     margin: auto;
@@ -86,9 +90,6 @@
     margin-right: 300px;
 }
 
-.login_header {
-    margin-left: 300px;
-}
 
 /*  MAIN */
 
