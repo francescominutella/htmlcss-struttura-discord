@@ -5,4 +5,14 @@
     box-sizing: border-box;
 }
 
+.container
+{
+  width: 70%;
+  max-width: 1140px;
+  margin: auto;
+}
+
+
+
 /* #endregion Utility */
+
