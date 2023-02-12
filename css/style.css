@@ -12,6 +12,11 @@
   margin: auto;
 }
 
+.d-flex
+{
+  display: flex;
+}
+
 /* #endregion Utility */
 
 /* #region dbg */
