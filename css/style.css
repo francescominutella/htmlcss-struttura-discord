@@ -55,15 +55,43 @@
   background-color: green;
 }
 
+.dbg .section_image
+{
+  height: 350px;
+  background-color: pink;
+}
+
+.dbg .section_text
+{
+  height: 350px;
+  background-color:dodgerblue;
+}
+
+.dbg #reliable .container
+{
+  height: 500px;
+  background-color: green;
+}
 /* #endregion dbg */
 
 /* #region main */
-.jumbotron
+.jumbotron 
 {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 3rem;
 }
+
+.section_image
+{
+  width: 60%;
+}
+
+.section_text
+{
+  width: 40%;
+}
+
 
 /* #endregion main */
