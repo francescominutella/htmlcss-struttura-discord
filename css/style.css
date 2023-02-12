@@ -128,7 +128,11 @@
   width: calc(100% / 4);
 }
 
-
+.bottom
+{
+  border-top: 1px solid black;
+  justify-content: space-between;
+}
 
 
 
