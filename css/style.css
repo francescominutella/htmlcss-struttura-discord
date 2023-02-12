@@ -72,9 +72,28 @@
   height: 500px;
   background-color: green;
 }
+
+.dbg #app-footer
+{
+  height: 500px;
+  background-color: #333;
+}
+
+.dbg .item40
+{
+  background-color:blueviolet;
+  height: 400px;
+}
+
+.dbg .item20
+{
+  background-color: aquamarine;
+  border: 1px dashed red;
+}
 /* #endregion dbg */
 
 /* #region main */
+
 .jumbotron 
 {
   display: flex;
@@ -97,5 +116,22 @@
   background-color: gainsboro;
 }
 
-
 /* #endregion main */
+
+/* #region footer */
+.item40{
+    width: 40%;
+}
+
+.item20
+{
+  width: calc(100% / 4);
+}
+
+
+
+
+
+
+/* #endregion footer */
+
